@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+ 
+<suite name="com.simple" thread-count="2" parallel="tests" >
+    <listeners>
+		<listener class-name="com.simple.ListenerClass" />
+	</listeners>
+  
+<test name="ChromeTest">
+ 
+<parameter name="browser" value="chrome" />
+ 
+<classes>
+ 
+<class name="com.simple.Cross_Browser_Testing">
+ 
+</class>
+ </classes> 
+</test>
+
+<test name="FirefoxTest">
+ 
+<parameter name="browser" value="FF" />
+ 
+<classes>
+ 
+<class name="com.simple.Cross_Browser_Testing">
+ 
+</class>
+ 
+</classes>
+ 
+</test>
+ 
+<test name="IETest">
+ 
+<parameter name="browser" value="ie" />
+ 
+<classes>
+ 
+<class name="com.simple.Cross_Browser_Testing">
+ 
+</class>
+ 
+</classes>
+ 
+</test>
+ 
+</suite>

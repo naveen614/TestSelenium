@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="37784" started-at="2016-01-05T07:02:42Z" finished-at="2016-01-05T07:03:20Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="37784" started-at="2016-01-05T07:02:42Z" finished-at="2016-01-05T07:03:20Z">
+      <class name="com.hidden.element.GetOptions_example">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.hidden.element.GetOptions_example@3033e3e0]" name="beforeTest" is-config="true" duration-ms="35328" started-at="2016-01-05T12:32:42Z" finished-at="2016-01-05T12:33:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="printDrodowns_Loc_Values()[pri:0, instance:com.hidden.element.GetOptions_example@3033e3e0]" name="printDrodowns_Loc_Values" duration-ms="1802" started-at="2016-01-05T12:33:17Z" finished-at="2016-01-05T12:33:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printDrodowns_Loc_Values -->
+        <test-method status="PASS" signature="printTxtBox_Loc()[pri:0, instance:com.hidden.element.GetOptions_example@3033e3e0]" name="printTxtBox_Loc" duration-ms="633" started-at="2016-01-05T12:33:19Z" finished-at="2016-01-05T12:33:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printTxtBox_Loc -->
+      </class> <!-- com.hidden.element.GetOptions_example -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

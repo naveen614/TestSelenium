@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Failed suite [com.simple]" parallel="tests">
+  <parameter name="browser" value="ie"/>
+  <listeners>
+    <listener class-name="com.simple.ListenerClass"/>
+  </listeners>
+  <test name="FirefoxTest(failed)" parallel="tests">
+    <parameter name="browser" value="FF"/>
+    <classes>
+      <class name="com.simple.Cross_Browser_Testing">
+        <methods>
+          <include name="before_Test"/>
+          <include name="before_Test"/>
+          <include name="before_Test"/>
+          <include name="First_test"/>
+        </methods>
+      </class> <!-- com.simple.Cross_Browser_Testing -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
+  <test name="ChromeTest(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.simple.Cross_Browser_Testing">
+        <methods>
+          <include name="before_Test"/>
+          <include name="before_Test"/>
+          <include name="before_Test"/>
+          <include name="First_test"/>
+        </methods>
+      </class> <!-- com.simple.Cross_Browser_Testing -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+  <test name="IETest(failed)" parallel="tests">
+    <parameter name="browser" value="ie"/>
+    <classes>
+      <class name="com.simple.Cross_Browser_Testing">
+        <methods>
+          <include name="before_Test"/>
+          <include name="before_Test"/>
+          <include name="before_Test"/>
+          <include name="First_test"/>
+        </methods>
+      </class> <!-- com.simple.Cross_Browser_Testing -->
+    </classes>
+  </test> <!-- IETest(failed) -->
+</suite> <!-- Failed suite [com.simple] -->
